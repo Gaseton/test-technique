@@ -1,0 +1,137 @@
+#bg-vehicule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 220px);
+    height: 60px;
+    background-image: url("../img/background_vehicule.png");
+    color: white;
+    margin: 0;
+}
+
+#bg-vehicule h1 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.etablissement {
+    width: 40px;
+    height: 40px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    margin: 15px 15px 0px 15px;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-color: rgb(45, 57, 124);
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #55555570;
+}
+
+.title h1 {
+    font-size: 20px;
+    color: rgb(42, 51, 121);
+}
+
+.title img {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+}
+
+.flex {
+    display: flex;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%;
+    font-size: 12px;
+    margin: 15px 15px 0px 15px;
+    padding: 10px;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #55555570;
+    color: rgb(42, 51, 121);
+}
+
+.div:hover {
+    cursor: pointer;
+}
+
+.div img {
+    width: 50px;
+    height: 50px;
+}
+
+.grey {
+    background-color: rgb(225, 229, 241);
+    border-color: rgb(45, 57, 124);
+}
+
+.green {
+    background-color: rgb(187, 213, 84);
+    border-color: rgb(45, 57, 124);
+}
+
+.blue {
+    background-color: rgb(75, 143, 154);
+    border-color: rgb(45, 57, 124);
+    color: white;
+}
+
+.profil {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    right: 0;
+}
+
+.profil img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.notif {
+    margin-right: 20px;
+    margin-left: 2px;
+    padding-right: 20px;
+    border-right: solid 1px white;
+}
+
+.user {
+    margin-right: 10px;
+}
+
+.user:hover {
+    cursor: pointer;
+}
+
+.text-user {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.modal-profil {
+    position: absolute;
+    right: 20px;
+    top: 62px;
+    box-shadow: 0px 1px 5px #55555570;
+    border-radius: 2px;
+    background-color: white;
+    color: grey;
+}
+
+.none {
+    display: none;
+}
